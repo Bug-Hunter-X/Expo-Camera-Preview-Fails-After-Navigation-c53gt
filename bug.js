@@ -1,0 +1,1 @@
+This bug occurs when using the Expo `Camera` API in conjunction with React Navigation.  Specifically, when navigating away from a screen containing the camera, and then back to it, the camera preview may fail to render or display a blank screen.  The camera still functions in terms of capturing images, but the preview is corrupted.
